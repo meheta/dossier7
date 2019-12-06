@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-family: 'EB Garamond', serif; 
+}
+
+.my-section{
+    background: #f4f4f4;
+    margin: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    display: flex;
+}
+.image
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.075),rgba(0, 0, 0, 0.048)),#ff7315;
+    width: 24rem ;
+    height:14rem ;
+    margin-right: 2rem;
+}
+.my-text{
+    margin-top: 2rem;
+}
+.my-text h1{
+    font-size: 1.2rem;
+    font-size: bold;
+    padding-bottom: .8rem;
+    text-transform: uppercase;
+}
+.my-text p{
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+.my-text a{
+    background-color:black ;
+    padding: .7rem 1.3rem;
+    text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: white;
+}
